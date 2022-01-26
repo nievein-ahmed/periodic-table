@@ -1,0 +1,82 @@
+table {
+  width: 90vw;
+  height: 90vh;
+  margin: 10vh auto;
+}
+td {
+  text-align: center;
+  width: 3rem;
+  height: 2rem;
+  border-radius: 10%;
+  border: 2px gray solid;
+}
+td:empty {
+  border: none;
+}
+td:hover {
+  transform: scale(1.5);
+  transition: 0.5s;
+}
+tr:nth-child(4) :nth-child(3) {
+  background-color: green;
+}
+tr:nth-child(4) :nth-child(4) {
+  background-color: green;
+}
+tr:nth-child(4) :nth-child(5) {
+  background-color: green;
+}
+tr:nth-child(4) :nth-child(6) {
+  background-color: green;
+}
+tr:nth-child(4) :nth-child(7) {
+  background-color: green;
+}
+tr:nth-child(4) :nth-child(8) {
+  background-color: green;
+}
+tr:nth-child(4) :nth-child(9) {
+  background-color: green;
+}
+tr:nth-child(4) :nth-child(10) {
+  background-color: green;
+}
+tr:nth-child(4) :nth-child(11) {
+  background-color: green;
+}
+tr:nth-child(4) :nth-child(12) {
+  background-color: green;
+}
+tr:nth-child(5) :nth-child(3) {
+  background-color: green;
+}
+tr:nth-child(5) :nth-child(4) {
+  background-color: green;
+}
+tr:nth-child(5) :nth-child(5) {
+  background-color: green;
+}
+tr:nth-child(5) :nth-child(6) {
+  background-color: green;
+}
+tr:nth-child(5) :nth-child(7) {
+  background-color: green;
+}
+tr:nth-child(5) :nth-child(8) {
+  background-color: green;
+}
+tr:nth-child(5) :nth-child(9) {
+  background-color: green;
+}
+tr:nth-child(5) :nth-child(10) {
+  background-color: green;
+}
+tr:nth-child(5) :nth-child(11) {
+  background-color: green;
+}
+tr:nth-child(5) :nth-child(12) {
+  background-color: green;
+}
+tr:nth-child(6) :nth-child(n + 4):nth-child(-n + 12) {
+  background-color: green;
+}
